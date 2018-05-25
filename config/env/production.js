@@ -149,7 +149,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'http://localhost:1337',
+        'https://vhubs.herokuapp.com/ ',
       ]
     },
 
@@ -250,10 +250,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://example.com',
-    //   'https://staging.example.com',
-    // ],
+    onlyAllowOrigins: [
+      'https://vhubs.herokuapp.com/',
+      'https://staging.vhubs.herokuapp.com/',
+    ],
 
 
     /***************************************************************************
