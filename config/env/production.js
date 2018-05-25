@@ -371,8 +371,8 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'vhubs.herokuapp.com/',
-    internalEmailAddress: 'support@vhubs.herokuapp.com/',
+    baseUrl: 'https://example.com',
+    internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
