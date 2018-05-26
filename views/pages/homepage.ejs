@@ -1,14 +1,49 @@
 <div id="homepage" :class="[heroHeightSet ? '' : 'uninitialized']" v-cloak>
   <div class="hero d-flex flex-column justify-content-center" full-page-hero>
     <div class="container text-center">
-      <div class="hero-image">
-        <img class="sky" alt="The sky above the ocean" src="/images/hero-sky.png"/>
-        <img class="cloud cloud-1" alt="A grayish-blue cloud" src="/images/hero-cloud.png"/>
-        <img class="cloud cloud-2" alt="Another grayish-blue cloud" src="/images/hero-cloud.png"/>
-        <img class="ship" alt="A ship hovering a few feet over the surface of the water, bearing a flagpole with the Sails.js logo" src="/images/hero-ship.png"/>
-        <img class="water" alt="The shadow of the floating ship on the water" src="/images/hero-water.png"/>
-      </div>
-      <h1 class="display-4">A new <strong>Sails</strong> app.</h1>
+      <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+      <h1>Your Job search ends here!<h1>
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search for Jobs" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                        <div class="dropdown dropdown-lg">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                            <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                <form class="form-horizontal" role="form">
+                                  <div class="form-group">
+                                    <label for="filter">Filter by</label>
+                                    <select class="form-control">
+                                        <option value="0" selected>All Jobs</option>
+                                        <option value="1">Featured Jobs</option>
+                                        <option value="2">Most popular Jobs</option>
+                                        <option value="3">Nearby Jobs</option>
+                                        <option value="4">Company</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Company</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="contain">Featured Jobs</label>
+                                    <input class="form-control" type="text" />
+                                  </div>
+                                  <!-- <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button> -->
+                                </form>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+	</div>
+</div>
+      <h1 class="display-4">VIRTUAL HUB</h1>
       <div>
         <div class="more-info-text" @click="clickHeroButton()">
           <div class="text">Dive in</div>
