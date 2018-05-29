@@ -14,8 +14,8 @@ module.exports.routes = {
   //  ╦ ╦╔═╗╔╗ ╔═╗╔═╗╔═╗╔═╗╔═╗
   //  ║║║║╣ ╠╩╗╠═╝╠═╣║ ╦║╣ ╚═╗
   //  ╚╩╝╚═╝╚═╝╩  ╩ ╩╚═╝╚═╝╚═╝
-  'GET /vhubs.herokuapp.com ':                   { action: 'view-homepage-or-redirect' },
-  'GET /vhubs.herokuapp.com/welcome':            { action: 'dashboard/view-welcome' },
+  'GET ':                   { action: 'view-homepage-or-redirect' },
+  'GET /welcome':            { action: 'dashboard/view-welcome' },
 
   'GET /faq':                { view:   'pages/faq' },
   'GET /legal/terms':        { view:   'pages/legal/terms' },
