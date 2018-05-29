@@ -250,10 +250,10 @@ module.exports = {
     * > Be sure to use the right protocol!  ("http://" vs. "https://")         *
     *                                                                          *
     ***************************************************************************/
-    // onlyAllowOrigins: [
-    //   'https://vhubs.herokuapp.com/',
-    //   'https://staging.vhubs.herokuapp.com/',
-    // ],
+    onlyAllowOrigins: [
+      'https://vhubs.herokuapp.com/',
+      // 'https://staging.vhubs.herokuapp.com/',
+    ],
 
 
     /***************************************************************************
@@ -322,7 +322,7 @@ module.exports = {
     * (https://sailsjs.com/config/http)                                        *
     *                                                                          *
     ***************************************************************************/
-    // trustProxy: true,
+    trustProxy: true,
 
   },
 
@@ -372,7 +372,7 @@ module.exports = {
   ***************************************************************************/
   custom: {
     baseUrl: 'https://vhubs.herokuapp.com',
-    internalEmailAddress: 'support@example.com',
+    internalEmailAddress: 'uboohodickson@gmail.com',
 
     // mailgunDomain: 'mg.example.com',
     // mailgunSecret: 'key-prod_fake_bd32301385130a0bafe030c',
