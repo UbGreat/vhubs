@@ -48,7 +48,8 @@ module.exports = {
     ***************************************************************************/
     default: {
       adapter: 'sails-mongo',
-      url: 'mongodb://UbGreat:heaven1987@ds237120.mlab.com:37120/vhubs_db',
+      url: 'mongodb://UbGreat:heaven1987@ds135760.mlab.com:35760/heroku_1sxftlls'
+      // url: 'mongodb://UbGreat:heaven1987@ds237120.mlab.com:37120/vhubs_db',
       //--------------------------------------------------------------------------
       //  /\   To avoid checking it in to version control, you might opt to set
       //  ||   sensitive credentials like `url` using an environment variable.
