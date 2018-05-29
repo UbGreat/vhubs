@@ -1,1 +1,1 @@
-web: nodemon
+web:sails lift
